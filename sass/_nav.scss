@@ -1,0 +1,47 @@
+//navigation
+@import './all';
+nav{
+    background-color: $light-grey;
+    text-align: center;
+    
+    margin-bottom: 2rem;
+
+    h1{
+        margin: 0;
+        font-size: $heading;
+        font-weight: 500;
+        color: $dark-blue;
+    }
+        p{
+            margin-top: 0;
+            margin-bottom: 2rem;
+            font-size: .803rem;
+            text-transform: uppercase;
+            color: $light-blue;
+            font-weight: 600;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }   
+            li{
+                margin-top: 1.5rem;
+            }
+            a{
+                text-decoration: none;
+                font-weight: 700;
+                text-transform: uppercase;
+                font-size: $link;
+                color: $dark-grey;
+
+                &:hover{
+                    color: $dark-blue;
+                }
+            }
+}
+.active {
+    border-bottom: 2px solid $dark-grey;
+    padding-bottom: .2rem;
+    color: $dark-blue;
+}

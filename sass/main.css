@@ -1,0 +1,256 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+nav {
+  background-color: #F8F8F8;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+nav h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #143774;
+}
+
+nav p {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: .803rem;
+  text-transform: uppercase;
+  color: #1792D2;
+  font-weight: 600;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  margin-top: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.865rem;
+  color: #707070;
+}
+
+nav a:hover {
+  color: #143774;
+}
+
+.active {
+  border-bottom: 2px solid #707070;
+  padding-bottom: .2rem;
+  color: #143774;
+}
+
+h1, h2, h3 {
+  font-weight: 500;
+  color: #143774;
+}
+
+article main .featured {
+  margin-bottom: 2rem;
+  border-bottom: 2px solid rgba(112, 112, 112, 0.4);
+}
+
+article main .items-container {
+  margin: 2rem 0;
+}
+
+article main .items {
+  width: 100%;
+}
+
+article main .items .item-img p {
+  font-size: 0.875rem;
+  color: #707070;
+  margin: 1rem 0;
+}
+
+article main .items .item-desc h2 {
+  color: #143774;
+  font-weight: 500;
+  margin-bottom: .9rem;
+}
+
+article main .items .item-desc p {
+  color: #707070;
+  margin: .9rem 0;
+  line-height: 1.5;
+}
+
+article main .items .item-desc p strong {
+  color: black;
+}
+
+article main .items .item-desc p a {
+  color: #1792D2;
+}
+
+article main .items .item-desc p a:hover {
+  color: #143774;
+}
+
+article main .items .item-desc .links {
+  text-decoration: none;
+  color: #1792D2;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: .9rem;
+  display: block;
+}
+
+article main .items .item-desc .links:hover {
+  color: #143774;
+}
+
+article aside {
+  display: none;
+}
+
+article aside h2 {
+  text-transform: uppercase;
+  color: #707070;
+  font-weight: 600;
+  font-size: 0.75rem;
+  margin-top: .5rem;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+h2, h3 {
+  margin-top: 0;
+}
+
+.items-container img {
+  height: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 630px) {
+  .featured {
+    margin-bottom: 2rem;
+    border-bottom: 2px solid rgba(112, 112, 112, 0.4);
+  }
+  .featured img {
+    height: 15rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .items-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  .items-container .item-img {
+    width: 40%;
+  }
+  .items-container .item-desc {
+    width: 55%;
+  }
+}
+
+@media (min-width: 740px) {
+  article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  article main {
+    width: auto;
+  }
+  article aside {
+    width: 30%;
+    margin-left: 2rem;
+  }
+  article aside img {
+    width: 8rem;
+    height: 7rem;
+    margin: 0 auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  article aside {
+    display: block;
+  }
+  .widget {
+    border: 1rem solid rgba(112, 112, 112, 0.3);
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  .widget p {
+    color: #1792D2;
+    margin: 0;
+  }
+  .widget h3 {
+    margin-top: .5rem;
+  }
+  .widget:last-child {
+    margin-bottom: 0;
+  }
+  .widget-items h3 {
+    border-bottom: 2px solid rgba(112, 112, 112, 0.3);
+    padding-bottom: 1rem;
+  }
+}
+
+.about-title {
+  font-size: 1rem;
+  margin: .5rem 0 0;
+}
+
+footer {
+  background-color: #143774;
+  text-align: center;
+  color: #F8F8F8;
+  padding: 1.5rem 0;
+  margin-top: 3rem;
+}
+
+footer p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+footer p:nth-child(1) {
+  color: rgba(248, 248, 248, 0.9);
+}
+
+footer p:nth-child(2) {
+  color: rgba(248, 248, 248, 0.7);
+}
+/*# sourceMappingURL=main.css.map */
